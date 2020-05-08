@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./tic-tac.css">
+    <title>TIC &#x2764; TAC</title>
+    <link rel="icon" href="./assets/images/heart.jpg" type="image/x-icon">
+</head>
+
+<body>
+    <div class="game">
+        <p id="player" class="play"></p>
+        <div class="container">
+            <div class="row-1">
+                <div id="one" onclick="box(event,'one')"></div>
+                <div id="two" onclick="box(event,'two')"></div>
+                <div id="three" onclick="box(event,'three')"></div>
+            </div>
+            <div class="row-2">
+                <div id="four" onclick="box(event,'four')"></div>
+                <div id="five" onclick="box(event,'five')"></div>
+                <div id="six" onclick="box(event,'six')"></div>
+            </div>
+            <div class="row-3">
+                <div id="seven" onclick="box(event,'seven')"></div>
+                <div id="eight" onclick="box(event,'eight')"></div>
+                <div id="nine" onclick="box(event,'nine')"></div>
+            </div>
+        </div>
+        <div>
+            <button type="reset" class="reset" onclick="reset()">Reset</button>
+        </div>
+    </div>
+
+    <footer class="footer">
+        @KK
+    </footer>
+    <script src='tic-tac.js'></script>
+</body>
+
+</html>
